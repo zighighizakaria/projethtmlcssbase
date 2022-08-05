@@ -19,6 +19,8 @@ body{
   margin-right: auto;
   margin-left: auto;
   width: 700px;
+  max-width: 800px;
+  min-width: 500px;
   height: 950px;
   border-radius: 10px;
 }
@@ -28,15 +30,17 @@ body{
   padding-top: 30px;
   font-family: TREBUCHET MS;
   font-size: 50px;
+  color: rgb(99, 46, 137);
 }
 
 
 #description{
   text-align: center;
   font-family: TREBUCHET MS;
-  font-size: 16px;
+  font-size: 17px;
   margin-top: -25px;
   padding-bottom: 25px;
+  color: rgb(84, 39, 116)
 }
 
 fieldset{
@@ -87,4 +91,19 @@ select{
 }
 input::placeholder {
   font-size: 16px;
+}
+.textar{
+  margin-bottom: 1.75rem;
+}
+
+input[type="submit"]{
+  display: block;
+  background-color: rgb(92,189,96,0.8);
+  font-family: TREBUCHET MS;
+  font-size: large;
+  color: white;
+  max-width: 170px;
+  border-color: rgb(92,189,96);
+  margin-right: auto;
+  margin-left: auto;
 }
