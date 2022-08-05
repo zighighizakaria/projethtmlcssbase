@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey form</title>
+</head>
+<body>
+ <h1 id="title">Survey Form</h1>
+<p id="description">Welcome to our form, please fill in all the fields below!</p>
+<div class="div1">
+  <form id="survey-form">
+
+    <!--fieldset1-->
+
+<fieldset>
+<label id="name-label">Name <input type="text" id="name" name="name" required placeholder="Enter Your Name" >
+</label>
+<label id="email-label">Email <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+</label>
+<label id="number-label">Age <input type="number" id="number" name="number" min="13" max="120" placeholder="Enter Your Age">
+</label>
+</fieldset>
+
+    <!--fieldset2-->
+
+<fieldset>
+  <!--select-->
+  <label class="field">What is your field of working 
+  <select id="dropdown">
+    <option>IT</option>
+    <option>Eco</option>
+    <option>Sport</option>
+    <option>Other</option>
+  </select>
+  </label>
+  <!--radio-->
+  <label id="aa">Enter Your Gender
+  <label>
+    <input type="radio" name="genre" value="female" class="inline">Female
+    </label>
+    <label>
+    <input type="radio" name="genre" value="Male" class="inline">Male
+    </label>
+</label>
+      <!--checkbox-->
+    <label>Choose Your interests </label>
+    <label>     
+    <input type="checkbox" value="Sport" class="inline"> Sport </label>
+    <label>     
+    <input type="checkbox" value="Voyage" class="inline"> Voyage </label>
+    <label>     
+    <input type="checkbox" value="Lecture" class="inline"> Lecture </label>
+    <label>     
+    <input type="checkbox" value="Musique" class="inline"> Musique </label>
+</fieldset>
+
+    <!--fieldset3-->
+
+     <!--textarea-->
+<fieldset>
+<label>Any Suggestion or Comment?</label>
+<textarea placeholder="Enter Your Comment Here..." rows="5"></textarea>
+     <!--submit-->
+<input type="submit" id="submit" value="Submit Form">
+</fieldset>
+  </form>
+</div>
+</body>
+</html>

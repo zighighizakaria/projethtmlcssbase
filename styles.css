@@ -1,0 +1,90 @@
+body{
+ 
+  background-image: url(./bg.jpg);
+  background-size: cover;
+}
+.div1{
+
+  font-family: TREBUCHET MS;
+  font-size: large;
+  color: white;
+  background: rgba(36, 2, 60, 0.6);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right:30px;
+  padding-left: 30px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  height: 950px;
+  border-radius: 10px;
+}
+
+#title{
+  text-align: center;
+  padding-top: 30px;
+  font-family: TREBUCHET MS;
+  font-size: 50px;
+}
+
+
+#description{
+  text-align: center;
+  font-family: TREBUCHET MS;
+  font-size: 16px;
+  margin-top: -25px;
+  padding-bottom: 25px;
+}
+
+fieldset{
+  
+  border:none;
+  padding: 2rem 0;
+  border-bottom: 5px solid;
+  border-width: 1.75px;
+  text-align: left;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+  
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label{
+  display: block;
+  margin:0.5rem 0;
+}
+
+input,
+textarea,
+select{
+  margin:10px 0 0 0;
+  border-radius: 3px;
+  border-color: white;
+  border-bottom: 10px;
+  width: 1000px;
+  min-height: 2em;
+  max-width: 700px;
+  
+
+}
+#aa{
+  margin-bottom: 3rem;
+
+}
+.inline{
+  width: 19px;
+  vertical-align: middle;
+  margin: 0 0.5em 0em 0;
+  
+}
+.field{
+  margin-bottom: 3rem;
+}
+input::placeholder {
+  font-size: 16px;
+}
